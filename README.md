@@ -8,10 +8,10 @@ This is still under heavy work, please beware before you use it
 ## Usage
 
 ## Already Supported
-- [ ] Cyclic reference detection
-- [ ] Yaml input files
-- [ ] Json output file
-- [ ] Resolve JsonRefs and concatenate into a single file
+- [x] Cyclic reference detection
+- [x] Yaml input files
+- [x] Json output file
+- [x] Resolve JsonRefs and concatenate into a single file
 
 ## TODO
 - [ ] Make more explicit error messages
