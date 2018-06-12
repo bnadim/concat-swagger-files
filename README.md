@@ -8,21 +8,21 @@ This is still under heavy work, please beware before you use it
 ## Usage
 
 ## Already Supported
-[] Cyclic reference detection
-[] Yaml input files
-[] Json output file
-[] Resolve JsonRefs and concatenate into a single file
+- [ ] Cyclic reference detection
+- [ ] Yaml input files
+- [ ] Json output file
+- [ ] Resolve JsonRefs and concatenate into a single file
 
 ## TODO
-[] Make more explicit error messages
-[] Support yaml output as well as json
-[] Support json input as well as yaml
-[] Improve command line helper
-[] Add tests
-[] Add samples
-[] Improve README
-[] Add swagger check command
-[] Add travis
+- [ ] Make more explicit error messages
+- [ ] Support yaml output as well as json
+- [ ] Support json input as well as yaml
+- [ ] Improve command line helper
+- [ ] Add tests
+- [ ] Add samples
+- [ ] Improve README
+- [ ] Add swagger check command
+- [ ] Add travis
 
 ## Contribute
 If you wish to contribute, please open issues or better, submit merge request
