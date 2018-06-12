@@ -1,0 +1,4 @@
+definitions:
+  key1:
+    $ref: ./simple.yaml#/key5
+  key2: value2
