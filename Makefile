@@ -50,10 +50,10 @@ build: ##@build Build for supported operating systems
 	@rm -R build
 	@env GOOS=darwin GOARCH=amd64 go build -o build/csf-${VERSION}-osx64/csf
 	@env GOOS=linux GOARCH=amd64 go build -o build/csf-${VERSION}-linux64/csf
-	@env GOOS=windows GOARCH=amd64 go build -o build/csf-${VERSION}-windows64/csf
-	@env GOOS=windows GOARCH=386 go build -o build/csf-${VERSION}-windows32/csf
+	@env GOOS=windows GOARCH=amd64 go build -o build/csf-${VERSION}-windows64/csf.exe
+	@env GOOS=windows GOARCH=386 go build -o build/csf-${VERSION}-windows32/csf.exe
 
 	@cd build/csf-${VERSION}-osx64 && zip -r ../csf-${VERSION}-osx64.zip csf
 	@cd build/csf-${VERSION}-linux64 && zip -r ../csf-${VERSION}-linux64.zip csf
-	@cd build/csf-${VERSION}-windows64 && zip -r ../csf-${VERSION}-windows64.zip csf
-	@cd build/csf-${VERSION}-windows32 && zip -r ../csf-${VERSION}-windows32.zip csf
+	@cd build/csf-${VERSION}-windows64 && zip -r ../csf-${VERSION}-windows64.zip csf.exe
+	@cd build/csf-${VERSION}-windows32 && zip -r ../csf-${VERSION}-windows32.zip csf.exe
